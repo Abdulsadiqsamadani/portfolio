@@ -211,9 +211,11 @@ body {
 }
 
 .contact-form {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
+  background-color: none;
+  border: 1px solid;
   gap: 20px;
 }
 
@@ -223,13 +225,22 @@ body {
   border: 16px;
   border-radius: 5px;
   padding: 10px;
+  background-color: none;
+
 }
 
 .contact-form textarea {
   resize: vertical;
   min-height: 135px;
+  border: 1px solid #0f0f1b;
 }
 
 .contact-form .btn {
   align-self: center;
 }
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;  
+  }
