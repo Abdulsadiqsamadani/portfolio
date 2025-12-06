@@ -32,13 +32,13 @@
   font-size: xx-large;
 }
 
+.btn {
+  width: 100%;
+}
+
 .headline-text p {
   text-align: left;
   font-size: 20px;
-}
-
-.btn {
-  width: 100%;
 }
 
 .about-list {
@@ -54,12 +54,12 @@
   display: flex;
 }
 
-.contact-container h1{
+.contact-container h1 {
   margin: 20px;
 }
 
-.contact-container .btn{
- align-self:self-start ;
+.contact-container .btn {
+  align-self: self-start;
 }
 
 .contact-form {
