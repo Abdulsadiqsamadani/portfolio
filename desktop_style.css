@@ -1,7 +1,5 @@
 .works .projects {
   grid-template-columns: 1fr 1fr 1fr;
-  
-  
 }
 
  .headline {
@@ -17,7 +15,7 @@
   padding-bottom: 90px;
 }
 
-.headline-text{
+.headline-text {
   display: flex;
   flex-direction: column;
   max-width: 600px;
@@ -29,16 +27,18 @@
   align-items: center;
   width: 50%;
 }
+
 .about-content p {
   font-size: xx-large;
 }
+
 .headline-text p {
   text-align: left;
   font-size: 20px;
 }
+
 .btn {
   width: 100%;
-  
 }
 
 .about-list {
@@ -52,14 +52,16 @@
 
 .contact-container {
   display: flex;
-  
 }
+
 .contact-container h1{
   margin: 20px;
 }
+
 .contact-container .btn{
  align-self:self-start ;
 }
+
 .contact-form {
   width: 2000px;
 }
@@ -67,4 +69,3 @@
 .social-line {
   width: 15%;
 }
-
