@@ -1,0 +1,70 @@
+.works .projects {
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  
+}
+
+ .headline {
+  display: flex;
+  background-image:
+    url("./assets/Group\ 162534.svg"),
+    url("./assets/add.svg"),
+    url("./assets/Group\ 162527.svg"),
+    url("./assets/Vector\ 13.svg"),
+    url("./assets/Group\ 162526.svg");
+  background-repeat: no-repeat;
+  background-position: 92% 21%, 98% 46%, 63% 42%, 63% 8%, 98% 7%;
+  padding-bottom: 90px;
+}
+
+.headline-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.headline .btn {
+  align-items: center;
+  width: 50%;
+}
+.about-content p {
+  font-size: xx-large;
+}
+.headline-text p {
+  text-align: left;
+  font-size: 20px;
+}
+.btn {
+  width: 100%;
+  
+}
+
+.about-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-card {
+  width: 40%;
+}
+
+.contact-container {
+  display: flex;
+  
+}
+.contact-container h1{
+  margin: 20px;
+}
+.contact-container .btn{
+ align-self:self-start ;
+}
+.contact-form {
+  width: 2000px;
+}
+
+.social-line {
+  width: 15%;
+}
+
