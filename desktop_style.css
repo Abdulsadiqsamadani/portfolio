@@ -1,3 +1,7 @@
+.body {
+  padding: 1rem;
+}
+
 .works .projects {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -68,4 +72,19 @@
 
 .social-line {
   width: 15%;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media screen and (min-width: 810px) {
+.desktop-nav{
+  display: flex;
+  gap: 20px;
+}
+
+.mobile_navbar{
+  display: none;
+}
 }
