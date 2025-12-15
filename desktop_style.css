@@ -1,5 +1,5 @@
-.body {
-  padding: 1rem;
+body {
+  padding: 2rem 7%;
 }
 
 .works .projects {
@@ -7,16 +7,9 @@
 }
 
 .headline {
-  display: flex;
-  background-image:
-    url("./assets/Group\ 162534.svg"),
-    url("./assets/add.svg"),
-    url("./assets/Group\ 162527.svg"),
-    url("./assets/Vector\ 13.svg"),
-    url("./assets/Group\ 162526.svg");
-  background-repeat: no-repeat;
-  background-position: 92% 21%, 98% 46%, 63% 42%, 63% 8%, 98% 7%;
-  padding-bottom: 90px;
+  background-position: 95% 53%, 99% 76%, 57% 78%, 56% 15%, 100% 13%;
+  background-size: 25rem, 3.5rem, 6.5rem, 6.5rem, 3.5rem;
+  padding: 5rem 0;
 }
 
 .headline-text {
@@ -25,15 +18,7 @@
   max-width: 600px;
   text-align: left;
   font-size: 1.5rem;
-}
-
-.btn {
-  width: 100%;
-}
-
-.headline .btn {
-  align-items: center;
-  width: 50%;
+  gap: 20px;
 }
 
 .about-content p {
@@ -43,6 +28,12 @@
 .headline-text p {
   text-align: left;
   font-size: 20px;
+  line-height: 170%;
+}
+
+.headline-text h1 {
+  font-size: 3rem;
+  line-height: 280%;
 }
 
 .about-list {
@@ -75,16 +66,29 @@
 }
 
 .desktop-nav {
-  display: none;
+  display: block;
 }
 
-@media screen and (min-width: 810px) {
-.desktop-nav{
+.desktop-nav ul {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
 }
 
 .mobile_navbar{
   display: none;
 }
+
+.desktop-nav-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  
+}
+
+.desktop-nav-btn a {
+  color: white;
+  text-decoration: none;
 }
