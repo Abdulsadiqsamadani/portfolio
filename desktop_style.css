@@ -22,7 +22,7 @@ body {
 }
 
 .about-content p {
-  font-size: xx-large;
+  font-size: 1.8rem;
 }
 
 .headline-text p {
@@ -32,8 +32,11 @@ body {
 }
 
 .headline-text h1 {
+  font-size: 5rem;
+}
+
+.headline-text h2 {
   font-size: 3rem;
-  line-height: 280%;
 }
 
 .about-list {
@@ -47,11 +50,14 @@ body {
 
 .contact-container {
   display: flex;
+  gap: 10px;
 }
 
-.contact-container h1 {
-  margin: 20px;
+.contact-container h3 {
+  font-size: 2.5rem;
+  margin-top: 5rem;
 }
+
 
 .contact-container .btn {
   align-self: self-start;
@@ -87,7 +93,8 @@ body {
   padding: 10px 40px;
 }
 
-.desktop-nav-btn a {
+.desktop-nav a {
   color: white;
   text-decoration: none;
 }
+      

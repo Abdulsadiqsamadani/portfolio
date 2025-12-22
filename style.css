@@ -28,10 +28,12 @@ body {
   display: none;
 }
 
-.logo {
+.logo a {
   display: flex;
   gap: 5px;
   font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
 }
 
 .hamburger {
@@ -60,9 +62,14 @@ body {
 }
 
 .headline-text h1 {
-  font-family: 'Rockybilly', sans-serif;
+  font-family: 'Luckiest Guy', sans-serif;
   font-size: 42px;
-  line-height: 150%;
+}
+
+.headline-text h2 {
+  color: #9494e4;
+  font-size: 1.8rem;
+  margin-top: -30px;
 }
 
 .headline-text p {
@@ -87,7 +94,7 @@ body {
 }
 
 .about-content p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 150%;
 }
 
@@ -221,23 +228,24 @@ body {
   padding: 40px;
 }
 
+.contact-container h3 {
+  font-size: 2.5rem;
+}
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   border: 1px;
   border-radius: 5px;
   border-style: solid;
-  border-color: #6565f0;
+  border-color: #9494e4;
   padding: 22px;
-  background-color: #0f0f1b;
-  margin: 10px;
+  background-color: transparent;
+  margin: 10px 0;
 }
 
 .contact-form textarea {
   resize: vertical;
   min-height: 135px;
-  border-style: solid;
-  border-color: #6565f0;
 }
 
 .contact-form .btn {
