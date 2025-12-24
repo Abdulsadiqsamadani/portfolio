@@ -58,11 +58,11 @@ body {
   margin-top: 5rem;
 }
 
-/*
+
 .contact-container .btn {
   align-self: self-start;
 }
-*/
+
 .contact-form {
   width: 2000px;
 }
@@ -97,4 +97,3 @@ body {
   color: white;
   text-decoration: none;
 }
-      
