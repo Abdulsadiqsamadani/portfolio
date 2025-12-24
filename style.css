@@ -248,12 +248,6 @@ body {
   resize: vertical;
   min-height: 135px;
 }
-/*
-.btn {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}*/
 
 .social-icon {
   display: flex;
