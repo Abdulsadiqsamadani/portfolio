@@ -31,9 +31,13 @@ body {
 .logo a {
   display: flex;
   gap: 5px;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: white;
   text-decoration: none;
+}
+
+.logo h1 {
+  align-self: center;
 }
 
 .hamburger {
@@ -51,6 +55,12 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 97%, 98% 96%, 0% 100%, 0% 60%, 93% 61%;
   padding-bottom: 400px;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  background-color: transparent;
 }
 
 .headline-text {
@@ -230,8 +240,14 @@ body {
 
 .contact-container h3 {
   font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -247,6 +263,10 @@ body {
 .contact-form textarea {
   resize: vertical;
   min-height: 135px;
+}
+
+.contact-form .btn {
+  align-self: center;
 }
 
 .social-icon {
