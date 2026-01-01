@@ -248,6 +248,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
