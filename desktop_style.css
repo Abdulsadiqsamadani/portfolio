@@ -1,0 +1,102 @@
+body {
+  padding: 2rem 7%;
+}
+
+.works .projects {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.headline {
+  background-position: 95% 53%, 99% 76%, 57% 78%, 56% 15%, 100% 13%;
+  background-size: 25rem, 3.5rem, 6.5rem, 6.5rem, 3.5rem;
+  padding: 5rem 0;
+}
+
+.headline-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+
+.about-content p {
+  font-size: 1.8rem;
+}
+
+.headline-text p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.headline-text h1 {
+  font-size: 5rem;
+}
+
+.headline-text h2 {
+  font-size: 3rem;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-card {
+  width: 40%;
+}
+
+.contact-container {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-container h3 {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+.contact-container .btn {
+  align-self: self-start;
+}
+
+.contact-form {
+  width: 2000px;
+}
+
+.social-line {
+  width: 15%;
+}
+
+.desktop-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 86%;
+}
+
+.desktop-nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+
+.mobile_navbar {
+  display: none;
+}
+
+.desktop-nav-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.desktop-nav a {
+  color: white;
+  text-decoration: none;
+  gap: 0;
+}

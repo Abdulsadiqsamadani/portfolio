@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./desktop_style.css" media="screen and (min-device-width: 810px)" />
     <title>portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Luckiest+Guy&display=swap&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -22,18 +19,39 @@
       <nav class="mobile_navbar">
         <ul>
           <li class="logo">
-            <img src="assets/logo.svg" alt="logo" />
-            <h1>Samadani</h1>
+            <a href="#headline">
+              <img src="assets/my-logo.png"  alt="logo" />
+              <h1>amadani</h1>
+            </a>
           </li>
           <li>
             <img src="assets/hambuger.svg" alt="Menu" class="hamburger" />
           </li>
         </ul>
       </nav>
+      <nav class="desktop-nav">
+        <ul>
+          <li class="logo">
+            <a href="#headline">
+              <img src="assets/my-logo.png  " alt="logo" />
+                <h1>amadani</h1>
+            </a>
+          </li>
+          <ul>
+            <li><a href="#headline">Portfolio</a></li>
+            <li><a href="#works">Projects</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <li class="desktop-nav-btn">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="headline">
+    <section class="headline" id="headline">
       <div class="headline-text">
         <h1>Abdulbasid<br />Sadiq<br />Abdussamad</h1>
+        <h2>Software Developer</h2>
         <p>
           Showcasing my work and skills in web development,with a focus on
           crafting clean,responsive design using HTML and CSS.Explore my project
@@ -46,7 +64,7 @@
       </div>
     </section>
     
-    <section class="works">
+    <section class="works" id="works">
       <h2>My Recent Works</h2>
       <hr class="main-line" />
       <div class="projects">
@@ -128,22 +146,9 @@
             <button class="btn">See project</button>
           </div>
         </div>
-        <div class="project">c
-          <div class="placeholder"></div>
-          <div class="project-container">
-            <h3>Multi-Post stories Gain + Glory</h3>
-            <ul class="tags">
-              <li>Ruby on Rails</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-            </ul>
-            <button class="btn">See project</button>
-          </div>
-        </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-content">
         <h2>About me</h2>
         <p>
@@ -191,10 +196,10 @@
         </li>
       </ul>
     </section>
-    <section class="contact-container">
-      <h1>I'm always intersted in hearing about new projects, so if you'd like to
+    <section class="contact-container" id="contact">
+      <h3>I'm always intersted in hearing about new projects, so if you'd like to
         chat please get in touch
-      </h1>
+      </h3>
       <form
         class="contact-form"
         action="https://formspree.io/f/xwpqedvo"
@@ -202,7 +207,7 @@
       >
         <input type="text" id="name" name="user-name" placeholder="Full Name" maxlength="30" required>
         <input type="email" name="email" placeholder="your@gmail.com" required>
-        <textarea id="msg" placeholder="Hey i'd like to connect to..." maxlength="500"required></textarea
+        <textarea id="msg" placeholder="Hey i'd like to connect to..." maxlength="500"rccequired></textarea
         >
         <button class="btn" type="submit">Get in touch</button>
       </form>
