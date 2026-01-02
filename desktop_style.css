@@ -74,7 +74,7 @@ body {
   display: block;
   position: fixed;
   top: 0;
-  width: 92%;
+  width: 86%;
 }
 
 .desktop-nav ul {
@@ -98,4 +98,5 @@ body {
 .desktop-nav a {
   color: white;
   text-decoration: none;
+  gap: 0;
 }

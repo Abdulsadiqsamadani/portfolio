@@ -37,6 +37,7 @@ body {
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
+  gap: 0;
 }
 
 .logo h1 {
@@ -61,7 +62,7 @@ body {
 }
 
 .logo img {
-  width: 60px;
+  width: 30px;
   height: auto;
   background-color: transparent;
 }
