@@ -37,6 +37,20 @@ body {
   color: white;
   text-decoration: none;
   gap: 0;
+  /*animation-properties*/
+  animation-name: logoRotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logoRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .logo h1 {
@@ -58,12 +72,19 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 97%, 98% 96%, 0% 100%, 0% 60%, 93% 61%;
   padding-bottom: 400px;
+  transform: scale(1);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.headline:hover {
+  transform: scale(1.1);
 }
 
 .logo img {
   width: 30px;
   height: auto;
   background-color: transparent;
+  transition: transform 0.2s ease;
 }
 
 .headline-text {
@@ -124,6 +145,12 @@ body {
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
+  transition: background-color 0s ease-in;
+}
+
+.btn:hover {
+  background-color: #374151;
+  border: #9CA3Af;
 }
 
 .about-list {
@@ -245,6 +272,11 @@ body {
   font-size: 2.5rem;
   text-align: center;
   padding-bottom: 1rem;
+  transition: 10s ease;
+}
+
+.contact-container h3 {
+  transform: translateX(10px);  
 }
 
 .contact-form {
