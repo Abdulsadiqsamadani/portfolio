@@ -37,6 +37,22 @@ body {
   color: white;
   text-decoration: none;
   gap: 0;
+
+  /* animation-properties */
+  animation-name: logoRotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logoRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .logo h1 {
@@ -64,6 +80,7 @@ body {
   width: 30px;
   height: auto;
   background-color: transparent;
+  transition: transform 0.2s ease;
 }
 
 .headline-text {
@@ -124,6 +141,12 @@ body {
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
+  transition: background-color 0s ease-in;
+}
+
+.btn:hover {
+  background-color: #374151;
+  border: #9ca3af;
 }
 
 .about-list {
@@ -262,6 +285,7 @@ body {
   padding: 22px;
   background-color: transparent;
   margin: 10px 0;
+  color: white;
 }
 
 .contact-form textarea {
