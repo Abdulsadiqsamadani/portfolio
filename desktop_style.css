@@ -73,7 +73,7 @@ body {
 .desktop-nav {
   display: block;
   position: fixed;
-  top: 0;
+  top: 10px;
   width: 86%;
 }
 
@@ -105,5 +105,15 @@ body {
 .desktop-nav a {
   color: white;
   text-decoration: none;
-  gap: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 2.2rem;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
 }

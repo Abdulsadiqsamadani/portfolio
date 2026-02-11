@@ -20,11 +20,10 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 40px 90;
   position: fixed;
-  top: 0%;
+  top: 2%;
   align-items: anchor-center;
-  width: 92%;
+  width: 88%;
 }
 
 .desktop-nav {
@@ -57,6 +56,7 @@ body {
 
 .logo h1 {
   align-self: center;
+  font-size: 1.8rem;
 }
 
 .hamburger {
@@ -78,7 +78,7 @@ body {
 
 .logo img {
   width: 30px;
-  height: auto;
+  height: 30px;
   background-color: transparent;
   transition: transform 0.2s ease;
 }
@@ -88,7 +88,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  padding: 40px 0;
+  padding-top: 70px;
+  padding-bottom: 40px;
 }
 
 .headline-text h1 {
