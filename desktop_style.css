@@ -93,7 +93,7 @@ body {
   border: 1px solid white;
   border-radius: 5px;
   padding: 10px 40px;
-  animation: pulseEffect 1.5s infinite;
+  animation: pulseEffect 1.5s ease-in-out 7 forwards;
 }
 
 @keyframes pulseEffect {
