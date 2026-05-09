@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: 'Rockybilly';
   src: url('./assets/fonts/Rockybilly.ttf');
 }
@@ -26,6 +26,23 @@ body {
   width: 88%;
 }
 
+.mobile_navbar_li {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.close-btn {
+  display: block;
+  float: right;
+  background: none;
+  font-size: 3rem;
+  color: white;
+  border: none;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -37,8 +54,7 @@ body {
   text-decoration: none;
   gap: 0;
 
-  /* animation-properties */
-  animation-name: logoRotate;
+  animation-name: logoRotate;k
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
@@ -62,6 +78,9 @@ body {
 .hamburger {
   cursor: pointer;
   width: 40px;
+  background: none;
+  border: none;
+  font-size: 2rem;
 }
 
 .headline {
