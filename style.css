@@ -33,6 +33,23 @@ body {
   height: 184px;
 }
 
+.logo a {
+  display: flex;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  gap: 0;
+
+  animation-name: logoRotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.about-content a {
+  align-self: center;
+}
+
 .mobile_navbar_li ul a {
   display: flex;
   gap: 90rem;
@@ -78,19 +95,6 @@ body {
 
 .desktop-nav {
   display: none;
-}
-
-.logo a {
-  display: flex;
-  font-size: 1.2rem;
-  color: white;
-  text-decoration: none;
-  gap: 0;
-
-  animation-name: logoRotate;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
 }
 
 @keyframes logoRotate {
@@ -179,10 +183,6 @@ body {
 .about-content p {
   font-size: 1.8rem;
   line-height: 150%;
-}
-
-.about-content a {
-  align-self: center;
 }
 
 .btn {
