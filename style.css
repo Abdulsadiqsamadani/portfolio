@@ -87,7 +87,7 @@ body {
   text-decoration: none;
   gap: 0;
 
-  animation-name: logoRotate;k
+  animation-name: logoRotate;
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
