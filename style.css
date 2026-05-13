@@ -59,7 +59,7 @@ body {
   text-align: center;
 }
 
-.active {
+.mobile_navbar_li.active {
   display: block;
 }
 
@@ -76,10 +76,6 @@ body {
   padding: 5px;
 }
 
-.mobile_navbar_li .active {
-  display: block;
-}
-
 .mobile_navbar_li_btn {
   position: fixed;
   top: 20px;
@@ -90,7 +86,8 @@ body {
 
 .close-btn {
   position: absolute;
-  left: 300px;
+  top: 10px;
+  left: 335px;
   padding: 20px;
   background: none;
   border: none;
@@ -124,6 +121,8 @@ body {
   background: none;
   border: none;
   font-size: 2rem;
+  position: relative;
+  z-index: 3000;
 }
 
 .headline {
