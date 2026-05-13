@@ -60,6 +60,7 @@ body {
 }
 
 .mobile_navbar_li {
+  display: none;
   font-weight: 600;
   position: fixed;
   top: 0;
@@ -71,6 +72,10 @@ body {
   padding: 5px;
 }
 
+.mobile_navbar_li.active{
+  display: block;
+}
+
 .mobile_navbar_li_btn {
   position: fixed;
   top: 20px;
@@ -78,12 +83,13 @@ body {
   z-index: 2001;
   display: block;
 }
-
 .active {
   display: block;
 }
 
 .close-btn {
+  position: absolute;
+  left: 300px;
   padding: 20px;
   background: none;
   border: none;
