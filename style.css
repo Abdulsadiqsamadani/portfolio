@@ -59,6 +59,10 @@ body {
   text-align: center;
 }
 
+.active {
+  display: block;
+}
+
 .mobile_navbar_li {
   display: none;
   font-weight: 600;
@@ -81,10 +85,6 @@ body {
   top: 20px;
   right: 20px;
   z-index: 2001;
-  display: block;
-}
-
-.active {
   display: block;
 }
 
