@@ -29,8 +29,10 @@ body {
 .mobile_navbar_li ul {
   margin-top: 90px;
   list-style-type: none;
-  width: 351px;
-  height: 184px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .logo a {
@@ -50,10 +52,7 @@ body {
 }
 
 .mobile_navbar_li ul a {
-  display: flex;
-  gap: 90rem;
-  margin: 30px;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -86,13 +85,13 @@ body {
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  left: 335px;
+  top: 0px;
+  right: 0px;
   padding: 20px;
   background: none;
   border: none;
   color: white;
-  font-size: 5rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -117,12 +116,15 @@ body {
 
 .hamburger {
   cursor: pointer;
-  width: 40px;
   background: none;
   border: none;
-  font-size: 2rem;
   position: relative;
   z-index: 3000;
+}
+
+.hamburger img {
+  width: 45px;
+  height: 45px;
 }
 
 .headline {
