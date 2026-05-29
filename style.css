@@ -58,9 +58,6 @@ body {
   text-align: center;
 }
 
-.mobile_navbar_li.active {
-  display: block;
-}
 
 .mobile_navbar_li {
   display: none;
@@ -73,6 +70,10 @@ body {
   background-color: #0f0f1b;
   z-index: 2000;
   padding: 5px;
+}
+
+.mobile_navbar_li.active {
+  display: block;
 }
 
 .mobile_navbar_li_btn {
