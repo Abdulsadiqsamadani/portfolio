@@ -16,6 +16,16 @@
   </head>
   <body>
     <header class="toolbar">
+      <div class="mobile_navbar_li">
+  <button type="button" class="close-btn">&times;</button>
+
+  <ul>
+    <li><a href="#headline">Portfolio</a></li>
+    <li><a href="#works">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
       <nav class="mobile_navbar">
         <ul>
           <li class="logo">
@@ -25,7 +35,9 @@
             </a>
           </li>
           <li>
-            <img src="assets/hambuger.svg" alt="Menu" class="hamburger" />
+            <button class="hamburger">
+              <img src="assets/hambuger.svg" alt="Menu" />
+            </button>
           </li>
         </ul>
       </nav>
@@ -57,10 +69,11 @@
           crafting clean,responsive design using HTML and CSS.Explore my project
           and in touch to colaborate
         </p>
-        <button class="btn" type="button">
+          <button class="btn" type="button">
           Checkout My CV
           <img src="assets/Icon.svg" alt="Arrow" class="arrow-icon" />
         </button>
+      </a>
       </div>
     </section>
     
@@ -226,6 +239,7 @@
       <div class="social-line"></div>
       </footer>
     </section>
-    
+
+    <script src="./main.js"></script>
   </body>
 </html>
