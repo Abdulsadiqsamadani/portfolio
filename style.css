@@ -411,12 +411,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .modal-content h2 {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #fff;
   text-align: left;
   padding-right: 30px;
 }
@@ -438,10 +438,6 @@ body {
   line-height: 1;
   cursor: pointer;
   transition: color 0.2s ease;
-}
-
-.modal-x-btn:hover {
-  color: #ff5252;
 }
 
 #modal-image {
@@ -475,7 +471,7 @@ body {
   #modal-image {
     max-height: 380px;
   }
-  
+
   .modal-actions .btn {
     flex: none;
     width: auto;
