@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
       nav.classList.remove("active");
     });
   });
-});
   const projectsData = [
     {
       id: 1,
@@ -147,3 +146,4 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.target === modal) closeModalFunc();
     });
   }
+  });
