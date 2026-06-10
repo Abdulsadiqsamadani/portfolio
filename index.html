@@ -162,10 +162,12 @@
         method="post"
       >
         <input type="text" id="name" name="user-name" placeholder="Full Name" maxlength="30" required>
-        <input type="email" name="email" placeholder="your@gmail.com" required>
+        <input type="email" id="contact-email" name="email" placeholder="your@gmail.com" required>
         <textarea id="msg" placeholder="Hey i'd like to connect to..." maxlength="500"required></textarea
         >
+        <div class="form-action">
         <button class="btn" type="submit">Get in touch</button>
+        <small id="email-error"></small>
       </form>
     </section>
     <section>

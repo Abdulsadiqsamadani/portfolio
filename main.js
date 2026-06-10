@@ -146,4 +146,21 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.target === modal) closeModalFunc();
     });
   }
+
+  const contactForm = document.querySelector(".contact-form");
+  const emailInput = document.getElementById("contact-email");
+  const emailError = document.getElementById("email-error");
+
+  if (contactForm && emailInput && emailError) {
+    contactForm.addEventListener("submit", (e) => {
+      const emailValue = emailInput.value;
+
+      if (emailValue !== emailValue.toLowerCase()) {
+        e.preventDefault();
+        emailError.textContent = "Error: Please submit your email in all lowercase letters.";
+      } else {
+        emailError.textContent = "";
+      }
+    });
+  }
   });
