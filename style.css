@@ -478,3 +478,19 @@ body {
     padding: 12px 30px;
   }
 }
+
+.form-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+#email-error {
+  color: red;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+}
