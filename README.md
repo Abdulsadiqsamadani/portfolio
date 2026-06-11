@@ -29,7 +29,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -45,28 +44,22 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://github.com/Mamaba03/portfolio.git)
+- [Live Demo Link](https://github.com/Mamaba03/portfolio.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 ### Prerequisites
 
 In order to run this project you need:
-
-
-
 
 ```sh
  web browser(e,g,chrome,firefox)
  git
 ```
- 
 
 ### Setup
 
@@ -85,7 +78,6 @@ Install this project with:
  No installation needed just open index.html in your browser.
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
@@ -102,6 +94,7 @@ To run tests, run the following command:
   This is a static site built with HTML and CSS so there are no automated tests at this time.
   In future updates,tests will be added to ensure code qualify quality and performance.
 ```
+
 ### Deployment
 
 You can deploy this project using:
@@ -109,6 +102,7 @@ You can deploy this project using:
 ```
  You can deploy using Github pages
 ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -143,7 +137,8 @@ If you like this project star it on Github or share it with friends!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my heartfelt gratitude to **Sahl Aminu Koko**,my mentor,whose tireless support,patience,and constant encouragement have beeen instrumental in my journey.His guidance has not only helped me build this portfolio but also strengthen my discipline and passion for web development.Thank you for believing in me and pushing me to stay  focused and consistent.
+I would like to express my heartfelt gratitude to **Sahl Aminu Koko**,my mentor,whose tireless support,patience,and constant encouragement have beeen instrumental in my journey.His guidance has not only helped me build this portfolio but also strengthen my discipline and passion for web development.Thank you for believing in me and pushing me to stay focused and consistent.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>

@@ -8,7 +8,12 @@
   }
 
   .headline {
-    background-position: 95% 53%, 99% 76%, 57% 78%, 56% 15%, 100% 13%;
+    background-position:
+      95% 53%,
+      99% 76%,
+      57% 78%,
+      56% 15%,
+      100% 13%;
     background-size: 25rem, 3.5rem, 6.5rem, 6.5rem, 3.5rem;
     padding: 5rem 0;
   }
@@ -99,9 +104,15 @@
   }
 
   @keyframes pulseEffect {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.5); }
-    100% { transform: scale(1); }
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .desktop-nav a {
