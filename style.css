@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Rockybilly';
-  src: url('./assets/fonts/Rockybilly.ttf');
+  font-family: "Rockybilly";
+  src: url("./assets/fonts/Rockybilly.ttf");
 }
 
 * {
@@ -129,13 +129,16 @@ body {
 
 .headline {
   background-image:
-    url("./assets/Group\ 162534.svg"),
-    url("./assets/add.svg"),
-    url("./assets/Group\ 162527.svg"),
-    url("./assets/Vector\ 13.svg"),
+    url("./assets/Group\ 162534.svg"), url("./assets/add.svg"),
+    url("./assets/Group\ 162527.svg"), url("./assets/Vector\ 13.svg"),
     url("./assets/Group\ 162526.svg");
   background-repeat: no-repeat;
-  background-position: 50% 97%, 98% 96%, 0% 100%, 0% 60%, 93% 61%;
+  background-position:
+    50% 97%,
+    98% 96%,
+    0% 100%,
+    0% 60%,
+    93% 61%;
   padding-bottom: 400px;
 }
 
@@ -156,7 +159,7 @@ body {
 }
 
 .headline-text h1 {
-  font-family: 'Luckiest Guy', sans-serif;
+  font-family: "Luckiest Guy", sans-serif;
   font-size: 42px;
 }
 
