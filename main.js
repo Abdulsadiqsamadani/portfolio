@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-  
+
   const nameInput = document.getElementById('name');
   const msgInput = document.getElementById('msg');
 
@@ -172,14 +172,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const savedData = localStorage.getItem(STORAGE_KEY);
     if (savedData) {
-      try {
-        const parsedData = JSON.parse(savedData);
-        nameInput.value = parsedData.name || '';
-        emailInput.value = parsedData.email || '';
-        msgInput.value = parsedData.message || '';
-      } catch (error) {
-        console.error('Error parsing data from localStorage', error);
-      }
+      const parsedData = JSON.parse(savedData);
+      nameInput.value = parsedData.name || '';
+      emailInput.value = parsedData.email || '';
+      msgInput.value = parsedData.message || '';
     }
 
     contactForm.addEventListener('input', () => {
