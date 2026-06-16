@@ -163,4 +163,38 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+  
+  const nameInput = document.getElementById('name');
+  const msgInput = document.getElementById('msg');
+
+  if (contactForm && nameInput && emailInput && msgInput) {
+    const STORAGE_KEY = 'portfolio_contact_form_data';
+
+    const savedData = localStorage.getItem(STORAGE_KEY);
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        nameInput.value = parsedData.name || '';
+        emailInput.value = parsedData.email || '';
+        msgInput.value = parsedData.message || '';
+      } catch (error) {
+        console.error('Error parsing data from localStorage', error);
+      }
+    }
+
+    contactForm.addEventListener('input', () => {
+      const formData = {
+        name: nameInput.value,
+        email: emailInput.value,
+        message: msgInput.value,
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
+    });
+
+    contactForm.addEventListener('submit', () => {
+      if (emailInput.value === emailInput.value.toLowerCase()) {
+        localStorage.removeItem(STORAGE_KEY);
+      }
+    });
+  }
 });
