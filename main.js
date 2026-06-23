@@ -172,6 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Error: Please submit your email in all lowercase letters.";
       } else {
         emailError.textContent = "";
+
       }
     });
   }
@@ -202,6 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
     contactForm.addEventListener('submit', () => {
       if (emailInput.value === emailInput.value.toLowerCase()) {
         localStorage.removeItem(STORAGE_KEY);
+
       }
     });
   }
