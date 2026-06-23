@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderProjects();
   const modal = document.getElementById("project-modal");
-  const modalClose = document.getElementById("modal-close"); // Matches HTML ID element
+  const modalClose = document.getElementById("modal-close");
   const modalTitle = document.getElementById("modal-title");
   const modalImage = document.getElementById("modal-image");
   const modalDesc = document.getElementById("modal-description");
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalSource = document.getElementById("modal-source");
 
   function openModal(id) {
-    const project = projectsData.find((p) => p.id === id);
+    const project = projectsData.find((p) => p.id === Number(id));
     if (!project || !modal) return;
 
     modalTitle.textContent = project.name;
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .join("");
 
     modal.classList.remove("hidden");
-    document.body.style.overflow = "hidden"; // Prevents background body scrolling
+    document.body.style.overflow = "hidden";
   }
 
   function closeModalFunc() {
