@@ -31,13 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: 2,
-      name: "Multi-Post Stories Gain + Glory",
+      name: "Personal Library Management Platform",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
-      featuredImage: "assets/capstone-project1.png",
-      technologies: ["CSS", "JavaScript", "HTML"],
-      liveLink: "#",
-      sourceLink: "#",
+        "A clean, responsive Single Page Application engineered with ES6+ JavaScript classes to streamline personal book collection management. Features dynamic add/remove functionality, zero-reload view toggling, and client-side data persistence via localStorage",
+      featuredImage: "assets/book-ledger.png",
+      technologies: ["CSS", "JavaScript", "HTML", "Versio-Control"],
+      liveLink: "https://abdulsadiqsamadani.github.io/book-ledger/",
+      sourceLink: "https://github.com/Abdulsadiqsamadani/book-ledger.git",
     },
     {
       id: 3,

@@ -21,7 +21,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 portfolio <a name="about-project"></a>
+# 📖 PORTFOLIO <a name="about-project"></a>
 
 **Portfolio Website** This is a personal portfolio built using HTML and CSS to showcase my web development journey and projects.
 
