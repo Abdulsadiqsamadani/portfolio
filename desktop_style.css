@@ -1,5 +1,19 @@
 @media screen and (min-width: 810px) {
   body {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .mobile_navbar {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  @media screen and (min-width: 810px) {
+  body {
     padding: 2rem 7%;
   }
 

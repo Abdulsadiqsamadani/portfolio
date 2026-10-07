@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Personal Library Management Platform",
       description:
         "A clean, responsive Single Page Application engineered with ES6+ JavaScript classes to streamline personal book collection management. Features dynamic add/remove functionality, zero-reload view toggling, and client-side data persistence via localStorage",
-      featuredImage: "assets/book-ledger.png",
+      featuredImage: "assets/awesome_books.png",
       technologies: ["CSS", "JavaScript", "HTML", "Versio-Control"],
-      liveLink: "https://abdulsadiqsamadani.github.io/book-ledger/",
-      sourceLink: "https://github.com/Abdulsadiqsamadani/book-ledger.git",
+      liveLink: "https://abdulsadiqsamadani.github.io/awesome_books/",
+      sourceLink: "https://github.com/Abdulsadiqsamadani/awesome_books.git",
     },
     {
       id: 3,
